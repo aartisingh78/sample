@@ -15,7 +15,17 @@
 
                 }
                 
-                
+                   function subtraction(){
+                    var box1=document.getElementById("box1");
+                    var box2=document.getElementById("box2"); 
+                    var box3=document.getElementById("box3");
+                   
+
+                var result=parseInt(box1.value) - parseInt(box2.value);
+            
+                box3.value =result;
+
+                }             
 
            
 </script>
@@ -26,6 +36,7 @@
       <input type='text' id="box3"/>
 
       <button onclick="Addition();"/>
+	   <button onclick="subtraction();"/>
 
 
 </body>
