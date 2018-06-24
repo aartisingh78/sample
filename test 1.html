@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+
+     <title>
+        <h4> HELLO GOOD MORNING </h4>
+
+     </title>
+
+     <script>
+             function showEmail(){ 
+                var y = document.getElementById('email');
+                var x = document.getElementById('name');
+
+                   alert(x.value+'\n'+y.value);}
+                
+     </script>
+    </head>
+    <body>
+        <div>
+                <label>
+                        Name:
+                </label>   
+                <input type="text" name="fullname" id="name" size="20" />   
+                
+        </div>
+        <div>
+                <label>
+                        Email:
+                </label> 
+                <input type="text" name="email" size="60" id="email" />   
+        </div>   
+          
+                   <div submit="boxed">
+                        <button onclick="showEmail();">showEmail </button>
+                        
+                                
+                        </div> 
+    </body>
+    </html>
